@@ -20,10 +20,10 @@ const Header = () => {
             </div>
 
             <div className="header_right">
-                <Icon>
+                <Icon style={{ padding: "10px" }}>
                     <Apps />
                 </Icon>
-                <Icon>
+                <Icon style={{ padding: "15px" }}>
                     <Notifications />
                 </Icon>
                 <Avatar />
