@@ -1,4 +1,4 @@
-import { Avatar, Icon, IconButton } from '@material-ui/core'
+import { Avatar, IconButton } from '@material-ui/core'
 import { Apps, ArrowDropDown, Menu, Notifications, Search } from '@material-ui/icons'
 import React from 'react'
 import "./Header.css"
@@ -20,12 +20,12 @@ const Header = () => {
             </div>
 
             <div className="header_right">
-                <Icon style={{ padding: "10px" }}>
+                <IconButton >
                     <Apps />
-                </Icon>
-                <Icon style={{ padding: "15px" }}>
+                </IconButton>
+                <IconButton >
                     <Notifications />
-                </Icon>
+                </IconButton>
                 <Avatar />
             </div>
         </div>

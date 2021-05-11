@@ -1,4 +1,4 @@
-import { Button, Icon } from '@material-ui/core'
+import { Button, IconButton } from '@material-ui/core'
 import { AccessTime, Add, Duo, ExpandMore, Inbox, LabelImportant, NearMe, Note, Person, Phone, Star } from '@material-ui/icons'
 import React from 'react'
 import SidebarOption from '../SidebarOption/SidebarOption'
@@ -18,15 +18,15 @@ const Sidebar = () => {
 
             <div className="sidebar_footer">
                 <div className="sidebar_footerIcons">
-                    <Icon style={{ padding: "10px" }}>
+                    <IconButton>
                         <Person />
-                    </Icon>
-                    <Icon style={{ padding: "10px" }}>
+                    </IconButton>
+                    <IconButton >
                         <Duo />
-                    </Icon>
-                    <Icon style={{ padding: "10px" }}>
+                    </IconButton>
+                    <IconButton >
                         <Phone />
-                    </Icon>
+                    </IconButton>
                 </div>
             </div>
         </div>
