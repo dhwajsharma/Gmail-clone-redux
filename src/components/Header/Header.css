@@ -43,3 +43,7 @@
   padding-right: 20px;
   align-items: center;
 }
+
+.header_avatar {
+  cursor: pointer;
+}
