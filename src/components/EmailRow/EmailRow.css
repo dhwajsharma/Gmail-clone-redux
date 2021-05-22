@@ -5,6 +5,7 @@
   border-bottom: 1px solid whitesmoke;
   cursor: pointer;
   z-index: 999;
+  vertical-align: middle;
 }
 
 .emailRow:hover {
